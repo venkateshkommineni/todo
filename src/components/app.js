@@ -61,14 +61,7 @@ export default class App extends React.Component {
     render () {
         return (
             <div>
-                <GithubCorner
-                    href="https://github.com/IonicaBizau/react-todo-app"
-                    bannerColor="#64CEAA"
-                    octoColor="#fff"
-                    width={80}
-                    height={80}
-                    direction="right"
-                />
+                
                 <h1>TODOs</h1>
                 <CreateTodo
                     createTask={this.createTask.bind(this)}
