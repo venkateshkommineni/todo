@@ -1,8 +1,6 @@
 import React from "react";
 import TodosList from "./todos-list"
 import CreateTodo from "./create-todo";
-import css from "./style.css";
-import GithubCorner from "react-github-corner";
 
 const todos = {
     items: [],
@@ -45,13 +43,6 @@ todos.populate();
 export default class App extends React.Component {
     constructor (props) {
         super(props);
-        //setInterval(() => {
-        //    todos.push({
-        //        task: "Make tea: " + Math.random(),
-        //        isCompleted: true
-        //    });
-        //    this.setState({ todos });
-        //}, 1000);
 
 
         this.state = {
